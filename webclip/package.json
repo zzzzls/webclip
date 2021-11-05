@@ -1,4 +1,24 @@
 {
+  "name": "webclip",
+  "version": "1.0.0",
+  "description": "轻量级云剪切板",
+  "main": "webclip.js",
+  "scripts": {
+    "start": "node webclip.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzzzls/webclip.git"
+  },
+  "keywords": [
+    "webclip"
+  ],
+  "author": "zzzzls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzzzls/webclip/issues"
+  },
+  "homepage": "https://github.com/zzzzls/webclip#readme",
   "dependencies": {
     "sqlite3": "^5.0.2"
   }
