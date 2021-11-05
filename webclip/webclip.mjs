@@ -84,7 +84,7 @@ function webclip_set(method, args, form, res) {
         let response = {
             headers: { 'Content-Type': 'application/json' },
             status: 200,
-            data: { 'msg': 'success' }
+            data: { 'msg': 'success', 'content': form['content'] }
         }
 
         cursor.insert_and_update(form['user'], form['content']);
