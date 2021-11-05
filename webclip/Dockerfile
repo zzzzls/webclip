@@ -1,4 +1,4 @@
-FROM node:17.0.1
+FROM node:lts-alpine
 
 LABEL author="zzzzls"\
       email="245129129@qq.com"
