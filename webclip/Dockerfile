@@ -11,7 +11,6 @@ COPY package.json ./
 
 RUN ["npm", "install"]
 
-COPY *.mjs ./
+COPY . ./
 
-
-CMD ["node", "webclip.mjs"]
+CMD ["npm", "start"]
